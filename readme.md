@@ -4,7 +4,6 @@
 import {mediaDevices, MediaStream, RTCIceCandidate, RTCPeerConnection, RTCSessionDescription, RTCView} from 'react-native-webrtc';
 import React from 'react';
 import {Dimensions, FlatList, StatusBar, View} from 'react-native';
-import {Theme} from '../../../../services/theme';
 import {Janus, JanusVideoRoomPlugin} from '../../../../node_modules/react-native-janus';
 
 Janus.setDependencies({
@@ -137,7 +136,7 @@ class JanusVideoRoomScreen extends React.Component {
 
     render() {
         return (
-            <View style={{flex: 1, width: '100%', height: '100%', backgroundColor: Theme.dark, flexDirection: 'row'}}>
+            <View style={{flex: 1, width: '100%', height: '100%', backgroundColor: '#000000', flexDirection: 'row'}}>
                 <StatusBar translucent={true} barStyle={'light-content'}/>
                 <FlatList
                     data={this.state.publishers}
