@@ -1,0 +1,23 @@
+{
+  "name": "react-native-janus",
+  "version": "0.0.1",
+  "description": "A react-native client for Janus WebRTC Gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canozgen9/react-native-janus.git"
+  },
+  "keywords": [
+    "janus",
+    "react-native"
+  ],
+  "author": "Can ÖZGEN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canozgen9/react-native-janus/issues"
+  },
+  "homepage": "https://github.com/canozgen9/react-native-janus#readme"
+}
