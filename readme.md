@@ -5,7 +5,7 @@ import {mediaDevices, MediaStream, RTCIceCandidate, RTCPeerConnection, RTCSessio
 import React from 'react';
 import {Dimensions, FlatList, StatusBar, View} from 'react-native';
 import {Theme} from '../../../../services/theme';
-import {Janus} from 'react-native-janus';
+import {Janus, JanusVideoRoomPlugin} from '../../../../node_modules/react-native-janus';
 
 Janus.setDependencies({
     RTCPeerConnection,
